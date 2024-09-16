@@ -1,0 +1,42 @@
+Multiple Types of Error in the Same Program
+1) Compile-time error
+2) Run-time error
+3) Logic error
+
+Q: Compile-time error
+A: - Syntax error
+- Type error
+- Declaration error
+- etc.
+
+Q: Run-time error
+A: - Division by zero
+- Array index out of bounds
+- etc.
+
+Q: Logic error
+A: - Program does not do what it is supposed to do
+- Program does not do what the programmer intended it to do
+
+Here Compile-time error are most easy to find and fix
+& sometime Logical error are most easy to find but sometime they are most difficult to find and fix
+
+But Run-time error are most difficult to find and fix
+
+because above 2 errors can be detected by testers for a specific application and this error occurs due to
+some faulty or incorrect code written by the programmer (It is a Programmer Fault)
+
+But Run-time error are most difficult to find and fix because they are not detected by testers for a specific application and this error occurs due to
+some faulty or not excepted input given by the user (It is a User Fault)
+
+for example, if we are writing a program to divide two numbers and if the user gives the second number as 0 then it will give a run-time error
+
+So in exception handling, we can handle these types of errors means Run-time errors
+
+
+Here in every code we are writing some Normal as well as Critical Statements
+for example
+- Normal Statement: print("Hello") here it will print Hello 100%
+- Critical Statement: db.connect() here if db is present then connect else it will give an error
+
+So in exception handling, we can handle these types of errors means Critical Statements
